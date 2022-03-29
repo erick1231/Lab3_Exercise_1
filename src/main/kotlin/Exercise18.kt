@@ -14,5 +14,5 @@ fun main()
             map[i] = 1
         }
     }
-    println(map)
+    println("Cantidad de elementos repetidos por numero" + map)
 }
