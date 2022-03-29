@@ -1,0 +1,26 @@
+fun main()
+{
+    println("Ingresa el primer numero: ")
+    var num1 = readLine()!!.toInt()
+    println("Ingresa el segundo numero: ")
+    var num2 = readLine()!!.toInt()
+    println("Ingresa el tercer numero: ")
+    var num3 = readLine()!!.toInt()
+    println("Ingresa el cuarto numero: ")
+    var num4 = readLine()!!.toInt()
+    println("Ingresa el quinto numero: ")
+    var num5 = readLine()!!.toInt()
+    println("Ingresa el sexto numero: ")
+    var num6 = readLine()!!.toInt()
+    println("Ingresa el septimo numero: ")
+    var num7 = readLine()!!.toInt()
+    println("Ingresa el octavo numero: ")
+    var num8 = readLine()!!.toInt()
+    println("Ingresa el noveno numero: ")
+    var num9 = readLine()!!.toInt()
+    println("Ingresa el decimo numero: ")
+    var num10 = readLine()!!.toInt()
+    var promedio2 = (num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10) / 10
+    println("El promedio es: $promedio2");
+    println("La suma es: ${num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10}")
+}
